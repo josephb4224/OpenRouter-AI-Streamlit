@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+
+# OpenRouter AI Model:
+# MODELS:
+#   Grok-4-fast:free
+#   DeepSeek-V3-0324:free
+
 import os
 import base64
 from dotenv import load_dotenv

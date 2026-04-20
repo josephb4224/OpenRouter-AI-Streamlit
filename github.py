@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# DeepSeek Chatbot:
+
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -6,7 +9,8 @@ load_dotenv()
 
 token = os.getenv("GITHUB_API_KEY")
 endpoint = os.getenv("GITHUB_MODELS_BASE_URL")
-# model_name = "openai/gpt-4o-mini"
+
+# Choose model (ie., "openai/gpt-4o-mini")
 model_name = "deepseek/DeepSeek-V3-0324"
 
 client = OpenAI(
