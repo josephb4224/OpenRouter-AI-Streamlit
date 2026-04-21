@@ -5,6 +5,7 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 
+# Load the environment variables (.env)
 load_dotenv()
 
 token = os.getenv("GITHUB_API_KEY")

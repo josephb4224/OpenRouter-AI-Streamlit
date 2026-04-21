@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 # OpenRouter AI Model:
 # MODELS:
 #   Grok-4-fast:free
@@ -11,6 +10,7 @@ from dotenv import load_dotenv
 import streamlit as st
 from openai import OpenAI
 
+# Load the environment variables (.env)
 load_dotenv()
 
 client = OpenAI(

@@ -1,4 +1,6 @@
-Use `streamlit run openrouter.py` to use with **Streamlit**
+ To use the AI models as **Streamlit** applications, use commands:
+- `streamlit run Openrouter_Streamlit.py`
+- `streamlit run LLM_Chat_Streamlit.py`
 
 ---
 
@@ -144,7 +146,7 @@ You can explore free models here:
 
 ### How to Get a Token
 1. Go to [GitHub Settings → Developer Settings → Personal Access Tokens](https://github.com/settings/tokens).
-2. Generate a new **Fine-grained PAT** with **`models:read`** scope enabled.
+2. Generate a new **Fine-grained PAT** with `models:read` scope enabled.
 3. Use the token in your requests:
 ```bash
 import os
